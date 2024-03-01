@@ -4,6 +4,9 @@
 * @class: Software Development Diploma program.
 * @author: Daniela Souza Freire.
 */
+const date=document.getElementById("date")
+date.textContent=new Intl.DateTimeFormat("en-US").format(new Date())
+
 const data = [
   {
     name: "Brielle Williamson",
