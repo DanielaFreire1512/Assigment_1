@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+
+          <li>
+            <a href="./grades_app.html">Grades App</a>
+          </li>
+
+          <li>
+            <a href="./staff_page.html">Staff</a>
+          </li>
+
+          <li>
+            <a href="./weather.html">Weather</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Temperature Converter</h2>
+      <form id="Degrees" method="post">
+        <div>
+          <label for="degrees-box">
+            Type the temperature to be converted:
+          </label>
+          <input type="number" id="degrees-box" />
+          <button class="formbuton" type="submit">Send</button>
+        </div>
+        <input checked type="radio" name="convertion" value="fc" /> Fahrenheit
+        to Celcius <input type="radio" name="convertion" value="ck" /> Celcius
+        to Kelvin
+      </form>
+
+      <h3 class="result"></h3>
+    </main>
+
+    <footer>
+      &copy Daniela Souza Freire
+      <span id="date"></span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

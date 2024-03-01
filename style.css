@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.face {
+  width: 300px;
+}
+.caption {
+  display: block;
+  visibility: hidden;
+}
+header {
+  background-color: black;
+  color: aliceblue;
+  padding: 16px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+nav ul li a {
+  color: white;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+}
+
+.main-grade {
+  background-color: rgb(237, 232, 232);
+}
+p {
+  text-align: left;
+  font-size: 14px;
+  color: gray;
+  padding-left: 32px;
+}
+
+h2 {
+  color: rgb(25, 12, 207);
+  padding-top: 16px;
+}
+
+#mark-input-box {
+  padding: 12px 20px;
+  border: 1px solid black;
+}
+
+#degrees-box {
+  padding: 12px 20px;
+  border: 2px solid rgb(109, 105, 105);
+}
+
+form {
+  margin-top: 2rem;
+}
+
+.formbuton {
+  padding: 8px;
+  background-color: grey;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  height: 80px;
+  padding: 16px;
+}

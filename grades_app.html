@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+
+                <li>
+                    <a href="./grades_app.html">Grades App</a>
+                </li>
+                
+                <li>
+                    <a href="./staff_page.html">Staff</a>
+                </li>
+                
+                <li>
+                    <a href="./weather.html">Weather</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-grade">
+       <form id="Form" method="post">
+            <label for="mark-input-box">
+                Type Your Numeric Grade:
+            </label>
+            <input type="number" id="mark-input-box">
+            <button class="formbuton" type="submit">
+                Check Marks 
+            </button>
+       </form>
+       <h2 class="success"></h2>
+       <h2 class="error"></h2>
+    </main>
+
+    <footer>
+        &copy Daniela Souza Freire
+        <span id="date"></span>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
