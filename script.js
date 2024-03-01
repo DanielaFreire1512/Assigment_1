@@ -13,7 +13,6 @@ const imageCaption = document.getElementsByClassName("caption")[0];
 
 if (imageCaption) {
   setTimeout(() => {
-    console.log("daniela");
     imageCaption.style.visibility = "visible";
   }, 10000);
 }
